@@ -174,7 +174,7 @@ class GLHLTrainer:
             weight_decay = self.config.weight_decay
         )
         scheduler  = ReduceLROnPlateau(
-            optimizer, mode="max", factor=0.5, patience=3, verbose=False
+            optimizer, mode="max", factor=0.5, patience=3
         )
         early_stop = EarlyStopping(patience=self.config.patience)
 
