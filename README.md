@@ -175,13 +175,5 @@ python main.py \
   --run_ablation
 ```
 
----
 
-## Citation
 
-If you use this pipeline, please cite:
-
-```
-A. Umar, "GLHL: Group-Level Hierarchical Learning for Imbalanced
-Skin Lesion Classification," IEEE Access, 2026.
-```
